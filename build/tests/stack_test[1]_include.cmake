@@ -1,0 +1,5 @@
+if(EXISTS "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/stack_test[1]_tests.cmake")
+  include("/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/stack_test[1]_tests.cmake")
+else()
+  add_test(stack_test_NOT_BUILT stack_test_NOT_BUILT)
+endif()

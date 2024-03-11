@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/queue_test.dir/queue_test.cpp.o -o queue_test  ../lib/libgtest_main.a ../src/libqueue.a ../lib/libgtest.a 

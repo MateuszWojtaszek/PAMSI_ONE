@@ -1,0 +1,204 @@
+Start testing: Mar 11 15:19 CET
+----------------------------------------------------------
+1/7 Testing: StackTEST.IS_EMPTY
+1/7 Test: StackTEST.IS_EMPTY
+Command: "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/stack_test" "--gtest_filter=StackTEST.IS_EMPTY" "--gtest_also_run_disabled_tests"
+Directory: /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests
+"StackTEST.IS_EMPTY" start time: Mar 11 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTEST.IS_EMPTY
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTEST
+[ RUN      ] StackTEST.IS_EMPTY
+[       OK ] StackTEST.IS_EMPTY (0 ms)
+[----------] 1 test from StackTEST (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"StackTEST.IS_EMPTY" end time: Mar 11 15:19 CET
+"StackTEST.IS_EMPTY" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/7 Testing: StackTEST.RANGE_ERROR
+2/7 Test: StackTEST.RANGE_ERROR
+Command: "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/stack_test" "--gtest_filter=StackTEST.RANGE_ERROR" "--gtest_also_run_disabled_tests"
+Directory: /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests
+"StackTEST.RANGE_ERROR" start time: Mar 11 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTEST.RANGE_ERROR
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTEST
+[ RUN      ] StackTEST.RANGE_ERROR
+[       OK ] StackTEST.RANGE_ERROR (0 ms)
+[----------] 1 test from StackTEST (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StackTEST.RANGE_ERROR" end time: Mar 11 15:19 CET
+"StackTEST.RANGE_ERROR" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/7 Testing: StackTEST.PUSH_TEST
+3/7 Test: StackTEST.PUSH_TEST
+Command: "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/stack_test" "--gtest_filter=StackTEST.PUSH_TEST" "--gtest_also_run_disabled_tests"
+Directory: /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests
+"StackTEST.PUSH_TEST" start time: Mar 11 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTEST.PUSH_TEST
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTEST
+[ RUN      ] StackTEST.PUSH_TEST
+[       OK ] StackTEST.PUSH_TEST (0 ms)
+[----------] 1 test from StackTEST (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"StackTEST.PUSH_TEST" end time: Mar 11 15:19 CET
+"StackTEST.PUSH_TEST" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/7 Testing: StackTEST.POP_TEST
+4/7 Test: StackTEST.POP_TEST
+Command: "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/stack_test" "--gtest_filter=StackTEST.POP_TEST" "--gtest_also_run_disabled_tests"
+Directory: /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests
+"StackTEST.POP_TEST" start time: Mar 11 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTEST.POP_TEST
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTEST
+[ RUN      ] StackTEST.POP_TEST
+unknown file: Failure
+C++ exception with description "stack is empty" thrown in the test body.
+[  FAILED  ] StackTEST.POP_TEST (0 ms)
+[----------] 1 test from StackTEST (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] StackTEST.POP_TEST
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"StackTEST.POP_TEST" end time: Mar 11 15:19 CET
+"StackTEST.POP_TEST" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/7 Testing: StackTEST.STACK_OVERFLOW
+5/7 Test: StackTEST.STACK_OVERFLOW
+Command: "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/stack_test" "--gtest_filter=StackTEST.STACK_OVERFLOW" "--gtest_also_run_disabled_tests"
+Directory: /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests
+"StackTEST.STACK_OVERFLOW" start time: Mar 11 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = StackTEST.STACK_OVERFLOW
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from StackTEST
+[ RUN      ] StackTEST.STACK_OVERFLOW
+[       OK ] StackTEST.STACK_OVERFLOW (46 ms)
+[----------] 1 test from StackTEST (46 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (46 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"StackTEST.STACK_OVERFLOW" end time: Mar 11 15:19 CET
+"StackTEST.STACK_OVERFLOW" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/7 Testing: QueueTEST.BASIC_TEST
+6/7 Test: QueueTEST.BASIC_TEST
+Command: "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/queue_test" "--gtest_filter=QueueTEST.BASIC_TEST" "--gtest_also_run_disabled_tests"
+Directory: /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests
+"QueueTEST.BASIC_TEST" start time: Mar 11 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueTEST.BASIC_TEST
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueTEST
+[ RUN      ] QueueTEST.BASIC_TEST
+[       OK ] QueueTEST.BASIC_TEST (0 ms)
+[----------] 1 test from QueueTEST (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"QueueTEST.BASIC_TEST" end time: Mar 11 15:19 CET
+"QueueTEST.BASIC_TEST" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/7 Testing: QueueTEST.RANGE_ERROR
+7/7 Test: QueueTEST.RANGE_ERROR
+Command: "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/queue_test" "--gtest_filter=QueueTEST.RANGE_ERROR" "--gtest_also_run_disabled_tests"
+Directory: /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests
+"QueueTEST.RANGE_ERROR" start time: Mar 11 15:19 CET
+Output:
+----------------------------------------------------------
+Running main() from /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = QueueTEST.RANGE_ERROR
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QueueTEST
+[ RUN      ] QueueTEST.RANGE_ERROR
+unknown file: Failure
+C++ exception with description "queue is empty" thrown in the test body.
+[  FAILED  ] QueueTEST.RANGE_ERROR (0 ms)
+[----------] 1 test from QueueTEST (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] QueueTEST.RANGE_ERROR
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"QueueTEST.RANGE_ERROR" end time: Mar 11 15:19 CET
+"QueueTEST.RANGE_ERROR" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 11 15:19 CET

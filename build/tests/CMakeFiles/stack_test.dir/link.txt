@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/stack_test.dir/stack_test.cpp.o -o stack_test  ../lib/libgtest_main.a ../src/libstack.a ../lib/libgtest.a 
