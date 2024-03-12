@@ -27,6 +27,11 @@ add_executable(
   queue_test
   queue_test.cpp
 )
+
+add_executable(
+  binaryTree_test
+  binaryTree_test.cpp
+)
 target_link_libraries(
   stack_test
   GTest::gtest_main
@@ -39,8 +44,17 @@ target_link_libraries(
   queue
 )
 
+target_link_libraries(
+  binaryTree_test
+  GTest::gtest_main
+  binaryTree
+)
+
 include(GoogleTest)
 gtest_discover_tests(stack_test)
 
 include(GoogleTest)
 gtest_discover_tests(queue_test)
+
+include(GoogleTest)
+gtest_discover_tests(binaryTree_test)
