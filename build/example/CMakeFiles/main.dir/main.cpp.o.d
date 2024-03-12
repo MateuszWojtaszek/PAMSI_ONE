@@ -523,4 +523,6 @@ example/CMakeFiles/main.dir/main.cpp.o: \
   /Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include/stack/stack.h \
   /Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include/stack/node.h \
   /Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include/queue/queue.h \
-  /Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include/queue/q_node.h
+  /Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include/queue/q_node.h \
+  /Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include/binaryTree/binaryTree.h \
+  /Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include/binaryTree/bT_node.h

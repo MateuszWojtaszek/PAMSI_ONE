@@ -523,6 +523,8 @@ example/CMakeFiles/main.dir/main.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h
  /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h
+ /Users/mateuszwojtaszek/projects/pamsi/project_one/include/binaryTree/bT_node.h
+ /Users/mateuszwojtaszek/projects/pamsi/project_one/include/binaryTree/binaryTree.h
  /Users/mateuszwojtaszek/projects/pamsi/project_one/include/queue/q_node.h
  /Users/mateuszwojtaszek/projects/pamsi/project_one/include/queue/queue.h
  /Users/mateuszwojtaszek/projects/pamsi/project_one/include/stack/node.h

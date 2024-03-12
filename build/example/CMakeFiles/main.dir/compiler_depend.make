@@ -522,6 +522,8 @@ example/CMakeFiles/main.dir/main.cpp.o: /Users/mateuszwojtaszek/projects/pamsi/p
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdarg.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stddef.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/stdint.h \
+  /Users/mateuszwojtaszek/projects/pamsi/project_one/include/binaryTree/bT_node.h \
+  /Users/mateuszwojtaszek/projects/pamsi/project_one/include/binaryTree/binaryTree.h \
   /Users/mateuszwojtaszek/projects/pamsi/project_one/include/queue/q_node.h \
   /Users/mateuszwojtaszek/projects/pamsi/project_one/include/queue/queue.h \
   /Users/mateuszwojtaszek/projects/pamsi/project_one/include/stack/node.h \
@@ -961,6 +963,8 @@ example/CMakeFiles/main.dir/main.cpp.o: /Users/mateuszwojtaszek/projects/pamsi/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_convertible.h:
+
+/Users/mateuszwojtaszek/projects/pamsi/project_one/include/binaryTree/bT_node.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_const.h:
 
@@ -1431,6 +1435,8 @@ example/CMakeFiles/main.dir/main.cpp.o: /Users/mateuszwojtaszek/projects/pamsi/p
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/void_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__type_traits/is_integral.h:
+
+/Users/mateuszwojtaszek/projects/pamsi/project_one/include/binaryTree/binaryTree.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk/usr/include/c++/v1/__iterator/reverse_access.h:
 
