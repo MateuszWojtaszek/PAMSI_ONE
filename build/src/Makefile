@@ -199,6 +199,44 @@ queue/fast:
 	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/queue.dir/build.make src/CMakeFiles/queue.dir/build
 .PHONY : queue/fast
 
+# Convenience name for target.
+src/CMakeFiles/binaryTree.dir/rule:
+	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/binaryTree.dir/rule
+.PHONY : src/CMakeFiles/binaryTree.dir/rule
+
+# Convenience name for target.
+binaryTree: src/CMakeFiles/binaryTree.dir/rule
+.PHONY : binaryTree
+
+# fast build rule for target.
+binaryTree/fast:
+	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/binaryTree.dir/build.make src/CMakeFiles/binaryTree.dir/build
+.PHONY : binaryTree/fast
+
+binaryTree.o: binaryTree.cpp.o
+.PHONY : binaryTree.o
+
+# target to build an object file
+binaryTree.cpp.o:
+	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/binaryTree.dir/build.make src/CMakeFiles/binaryTree.dir/binaryTree.cpp.o
+.PHONY : binaryTree.cpp.o
+
+binaryTree.i: binaryTree.cpp.i
+.PHONY : binaryTree.i
+
+# target to preprocess a source file
+binaryTree.cpp.i:
+	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/binaryTree.dir/build.make src/CMakeFiles/binaryTree.dir/binaryTree.cpp.i
+.PHONY : binaryTree.cpp.i
+
+binaryTree.s: binaryTree.cpp.s
+.PHONY : binaryTree.s
+
+# target to generate assembly for a file
+binaryTree.cpp.s:
+	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/binaryTree.dir/build.make src/CMakeFiles/binaryTree.dir/binaryTree.cpp.s
+.PHONY : binaryTree.cpp.s
+
 queue.o: queue.cpp.o
 .PHONY : queue.o
 
@@ -260,8 +298,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... binaryTree"
 	@echo "... queue"
 	@echo "... stack"
+	@echo "... binaryTree.o"
+	@echo "... binaryTree.i"
+	@echo "... binaryTree.s"
 	@echo "... queue.o"
 	@echo "... queue.i"
 	@echo "... queue.s"

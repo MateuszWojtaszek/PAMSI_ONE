@@ -199,6 +199,44 @@ queue_test/fast:
 	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/queue_test.dir/build.make tests/CMakeFiles/queue_test.dir/build
 .PHONY : queue_test/fast
 
+# Convenience name for target.
+tests/CMakeFiles/binaryTree_test.dir/rule:
+	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tests/CMakeFiles/binaryTree_test.dir/rule
+.PHONY : tests/CMakeFiles/binaryTree_test.dir/rule
+
+# Convenience name for target.
+binaryTree_test: tests/CMakeFiles/binaryTree_test.dir/rule
+.PHONY : binaryTree_test
+
+# fast build rule for target.
+binaryTree_test/fast:
+	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/binaryTree_test.dir/build.make tests/CMakeFiles/binaryTree_test.dir/build
+.PHONY : binaryTree_test/fast
+
+binaryTree_test.o: binaryTree_test.cpp.o
+.PHONY : binaryTree_test.o
+
+# target to build an object file
+binaryTree_test.cpp.o:
+	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/binaryTree_test.dir/build.make tests/CMakeFiles/binaryTree_test.dir/binaryTree_test.cpp.o
+.PHONY : binaryTree_test.cpp.o
+
+binaryTree_test.i: binaryTree_test.cpp.i
+.PHONY : binaryTree_test.i
+
+# target to preprocess a source file
+binaryTree_test.cpp.i:
+	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/binaryTree_test.dir/build.make tests/CMakeFiles/binaryTree_test.dir/binaryTree_test.cpp.i
+.PHONY : binaryTree_test.cpp.i
+
+binaryTree_test.s: binaryTree_test.cpp.s
+.PHONY : binaryTree_test.s
+
+# target to generate assembly for a file
+binaryTree_test.cpp.s:
+	cd /Users/mateuszwojtaszek/projects/pamsi/project_one/build && $(MAKE) $(MAKESILENT) -f tests/CMakeFiles/binaryTree_test.dir/build.make tests/CMakeFiles/binaryTree_test.dir/binaryTree_test.cpp.s
+.PHONY : binaryTree_test.cpp.s
+
 queue_test.o: queue_test.cpp.o
 .PHONY : queue_test.o
 
@@ -260,8 +298,12 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... binaryTree_test"
 	@echo "... queue_test"
 	@echo "... stack_test"
+	@echo "... binaryTree_test.o"
+	@echo "... binaryTree_test.i"
+	@echo "... binaryTree_test.s"
 	@echo "... queue_test.o"
 	@echo "... queue_test.i"
 	@echo "... queue_test.s"

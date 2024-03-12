@@ -34,8 +34,9 @@
 					"source" : "src",
 					"targetIndexes" : 
 					[
-						5,
-						7
+						0,
+						7,
+						9
 					]
 				},
 				{
@@ -61,7 +62,7 @@
 					"source" : "example",
 					"targetIndexes" : 
 					[
-						4
+						6
 					]
 				},
 				{
@@ -81,8 +82,9 @@
 					"source" : "tests",
 					"targetIndexes" : 
 					[
-						6,
-						8
+						1,
+						8,
+						10
 					]
 				},
 				{
@@ -108,7 +110,7 @@
 						7
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.googletest-build.googlemock-Debug-0cefc9c403ea7b870767.json",
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Debug-c795cfa1ff2805491bb7.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -118,14 +120,14 @@
 					"source" : "build/_deps/googletest-src/googlemock",
 					"targetIndexes" : 
 					[
-						0,
-						1
+						2,
+						3
 					]
 				},
 				{
 					"build" : "_deps/googletest-build/googletest",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-f2f21c7887043676dc1c.json",
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Debug-21458a2172353395871b.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.5"
@@ -135,8 +137,8 @@
 					"source" : "build/_deps/googletest-src/googletest",
 					"targetIndexes" : 
 					[
-						2,
-						3
+						4,
+						5
 					]
 				}
 			],
@@ -159,11 +161,13 @@
 					"name" : "Project_ONE",
 					"targetIndexes" : 
 					[
-						4,
-						5,
+						0,
+						1,
 						6,
 						7,
-						8
+						8,
+						9,
+						10
 					]
 				},
 				{
@@ -191,8 +195,8 @@
 					"parentIndex" : 1,
 					"targetIndexes" : 
 					[
-						0,
-						1
+						2,
+						3
 					]
 				},
 				{
@@ -204,13 +208,27 @@
 					"parentIndex" : 2,
 					"targetIndexes" : 
 					[
-						2,
-						3
+						4,
+						5
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 1,
+					"id" : "binaryTree::@145eef247bfb46b6828c",
+					"jsonFile" : "target-binaryTree-Debug-8fcdba90e9676c00345f.json",
+					"name" : "binaryTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "binaryTree_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-binaryTree_test-Debug-2902089f9a38b23ca22e.json",
+					"name" : "binaryTree_test",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 6,
 					"id" : "gmock::@0f7bb11d64f3678238c7",
@@ -249,28 +267,28 @@
 				{
 					"directoryIndex" : 1,
 					"id" : "queue::@145eef247bfb46b6828c",
-					"jsonFile" : "target-queue-Debug-4eb2b7fb1cf05c2f0f64.json",
+					"jsonFile" : "target-queue-Debug-aa120bb032379f6ad45b.json",
 					"name" : "queue",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "queue_test::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-queue_test-Debug-e522ede5eb6f0f16b47e.json",
+					"jsonFile" : "target-queue_test-Debug-f9fc8791b84dea6ac717.json",
 					"name" : "queue_test",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "stack::@145eef247bfb46b6828c",
-					"jsonFile" : "target-stack-Debug-3ca191fb350f58e4ee2e.json",
+					"jsonFile" : "target-stack-Debug-8e78781c9c2dec28f6b2.json",
 					"name" : "stack",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 4,
 					"id" : "stack_test::@a44f0ac069e85531cdee",
-					"jsonFile" : "target-stack_test-Debug-bf454f335c56749b8ae6.json",
+					"jsonFile" : "target-stack_test-Debug-7c1dfcca71491e6ab02e.json",
 					"name" : "stack_test",
 					"projectIndex" : 0
 				}

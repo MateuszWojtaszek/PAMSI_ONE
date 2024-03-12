@@ -7,6 +7,7 @@
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/CMakeFiles/install/strip.dir
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/src/CMakeFiles/stack.dir
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/src/CMakeFiles/queue.dir
+/Users/mateuszwojtaszek/projects/pamsi/project_one/build/src/CMakeFiles/binaryTree.dir
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/src/CMakeFiles/test.dir
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/src/CMakeFiles/edit_cache.dir
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/src/CMakeFiles/rebuild_cache.dir
@@ -31,6 +32,7 @@
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/example/CMakeFiles/install/strip.dir
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/CMakeFiles/stack_test.dir
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/CMakeFiles/queue_test.dir
+/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/CMakeFiles/binaryTree_test.dir
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/CMakeFiles/test.dir
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/CMakeFiles/edit_cache.dir
 /Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests/CMakeFiles/rebuild_cache.dir

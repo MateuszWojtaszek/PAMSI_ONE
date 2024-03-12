@@ -194,6 +194,11 @@
 			"path" : "/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GoogleTest.cmake"
 		},
 		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/Cellar/cmake/3.28.3/share/cmake/Modules/GoogleTest.cmake"
+		},
+		{
 			"isGenerated" : true,
 			"path" : "build/_deps/googletest-src/CMakeLists.txt"
 		},

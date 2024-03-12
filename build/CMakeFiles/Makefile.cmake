@@ -94,9 +94,11 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "src/CMakeFiles/stack.dir/DependInfo.cmake"
   "src/CMakeFiles/queue.dir/DependInfo.cmake"
+  "src/CMakeFiles/binaryTree.dir/DependInfo.cmake"
   "example/CMakeFiles/main.dir/DependInfo.cmake"
   "tests/CMakeFiles/stack_test.dir/DependInfo.cmake"
   "tests/CMakeFiles/queue_test.dir/DependInfo.cmake"
+  "tests/CMakeFiles/binaryTree_test.dir/DependInfo.cmake"
   "_deps/googletest-build/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
   "_deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
   "_deps/googletest-build/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"

@@ -12,6 +12,12 @@
   "output": "src/CMakeFiles/queue.dir/queue.cpp.o"
 },
 {
+  "directory": "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/src",
+  "command": "/usr/bin/clang++  -I/Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wall -Wextra -O -pedantic -Werror=return-type -Werror=parentheses -Werror=vla -Werror=array-bounds -Wcast-qual -Wuninitialized -o CMakeFiles/binaryTree.dir/binaryTree.cpp.o -c /Users/mateuszwojtaszek/projects/pamsi/project_one/src/binaryTree.cpp",
+  "file": "/Users/mateuszwojtaszek/projects/pamsi/project_one/src/binaryTree.cpp",
+  "output": "src/CMakeFiles/binaryTree.dir/binaryTree.cpp.o"
+},
+{
   "directory": "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/example",
   "command": "/usr/bin/clang++  -I/Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wall -Wextra -O -pedantic -Werror=return-type -Werror=parentheses -Werror=vla -Werror=array-bounds -Wcast-qual -Wuninitialized -o CMakeFiles/main.dir/main.cpp.o -c /Users/mateuszwojtaszek/projects/pamsi/project_one/example/main.cpp",
   "file": "/Users/mateuszwojtaszek/projects/pamsi/project_one/example/main.cpp",
@@ -28,6 +34,12 @@
   "command": "/usr/bin/clang++  -I/Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include -isystem /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest/include -isystem /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wall -Wextra -O -pedantic -Werror=return-type -Werror=parentheses -Werror=vla -Werror=array-bounds -Wcast-qual -Wuninitialized -o CMakeFiles/queue_test.dir/queue_test.cpp.o -c /Users/mateuszwojtaszek/projects/pamsi/project_one/tests/queue_test.cpp",
   "file": "/Users/mateuszwojtaszek/projects/pamsi/project_one/tests/queue_test.cpp",
   "output": "tests/CMakeFiles/queue_test.dir/queue_test.cpp.o"
+},
+{
+  "directory": "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/tests",
+  "command": "/usr/bin/clang++  -I/Users/mateuszwojtaszek/projects/pamsi/project_one/src/../include -isystem /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest/include -isystem /Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-src/googletest -g -std=gnu++2b -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -Wall -Wextra -O -pedantic -Werror=return-type -Werror=parentheses -Werror=vla -Werror=array-bounds -Wcast-qual -Wuninitialized -o CMakeFiles/binaryTree_test.dir/binaryTree_test.cpp.o -c /Users/mateuszwojtaszek/projects/pamsi/project_one/tests/binaryTree_test.cpp",
+  "file": "/Users/mateuszwojtaszek/projects/pamsi/project_one/tests/binaryTree_test.cpp",
+  "output": "tests/CMakeFiles/binaryTree_test.dir/binaryTree_test.cpp.o"
 },
 {
   "directory": "/Users/mateuszwojtaszek/projects/pamsi/project_one/build/_deps/googletest-build/googlemock",

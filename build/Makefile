@@ -198,6 +198,19 @@ queue/fast:
 .PHONY : queue/fast
 
 #=============================================================================
+# Target rules for targets named binaryTree
+
+# Build rule for target.
+binaryTree: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 binaryTree
+.PHONY : binaryTree
+
+# fast build rule for target.
+binaryTree/fast:
+	$(MAKE) $(MAKESILENT) -f src/CMakeFiles/binaryTree.dir/build.make src/CMakeFiles/binaryTree.dir/build
+.PHONY : binaryTree/fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -235,6 +248,19 @@ queue_test: cmake_check_build_system
 queue_test/fast:
 	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/queue_test.dir/build.make tests/CMakeFiles/queue_test.dir/build
 .PHONY : queue_test/fast
+
+#=============================================================================
+# Target rules for targets named binaryTree_test
+
+# Build rule for target.
+binaryTree_test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 binaryTree_test
+.PHONY : binaryTree_test
+
+# fast build rule for target.
+binaryTree_test/fast:
+	$(MAKE) $(MAKESILENT) -f tests/CMakeFiles/binaryTree_test.dir/build.make tests/CMakeFiles/binaryTree_test.dir/build
+.PHONY : binaryTree_test/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -301,6 +327,8 @@ help:
 	@echo "... list_install_components"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... binaryTree"
+	@echo "... binaryTree_test"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"
