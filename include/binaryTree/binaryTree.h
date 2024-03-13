@@ -30,8 +30,15 @@ void displayHelper(bT_node<T>* rootNode) const{
     displayHelper(rootNode->r_child);
    }
 }
-void display_sortedHelper(){
-  
+void display_sortedHelper(bT_node<T>* rootNode){
+if(rootNode==nullptr){
+      return;
+} 
+else{
+  display_sortedHelper(rootNode->l_child);
+  std::cout << rootNode->data << "\n";
+  display_sortedHelper(rootNode->r_child);
+}
 }
 public:
 BinaryTree()=default;
@@ -59,6 +66,6 @@ int num_of_elements()const {
   }
 
 void display_sorted(){
-  display_sortedHelper();
+  display_sortedHelper(this->root);
 }
 };
