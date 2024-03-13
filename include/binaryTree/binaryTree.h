@@ -6,6 +6,7 @@ template<class T>
 class BinaryTree{
 bT_node<T> *root=nullptr;
 int elements =0;
+// passing pointer by reference to change it in this function
 void addNext(bT_node<T>* &rootNode,bT_node<T>* &newNode){
   if(rootNode==nullptr){
     rootNode=newNode;
@@ -17,6 +18,20 @@ void addNext(bT_node<T>* &rootNode,bT_node<T>* &newNode){
   else{
     addNext(rootNode->r_child,newNode);
   }
+}
+
+void displayHelper(bT_node<T>* rootNode) const{
+  if(rootNode==nullptr){
+    return;
+  }
+   else {
+    std::cout<<rootNode->data<<"\n";
+    displayHelper(rootNode->l_child);
+    displayHelper(rootNode->r_child);
+   }
+}
+void display_sortedHelper(){
+  
 }
 public:
 BinaryTree()=default;
@@ -34,10 +49,16 @@ void add(const T &value){
     addNext(root->r_child,new_data);
   }
 }
+void display() const{
+  displayHelper(this->root);
+}
 
-void display(){
-  std::cout<<root->data<<"\n";
-  std::cout<<root->l_child->data<<"\n";
-  std::cout<<root->l_child->r_child->data<<"\n";
+
+int num_of_elements()const {
+  return elements;
+  }
+
+void display_sorted(){
+  display_sortedHelper();
 }
 };
